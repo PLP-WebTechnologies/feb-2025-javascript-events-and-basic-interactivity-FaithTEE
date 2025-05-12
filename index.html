@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Resilience - Climate Change Strategies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   
+    <header class="wave-header">
+       
+    </header>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#" class="nav-link active" data-tab="home">Home</a></li>
+            <li><a href="#" class="nav-link" data-tab="strategies">Strategies</a></li>
+            <li><a href="#" class="nav-link" data-tab="gallery">Case Studies</a></li>
+            <li><a href="#" class="nav-link" data-tab="contact">Take Action</a></li>
+        </ul>
+        <button id="color-toggle" class="btn">Toggle Dark Mode</button>
+    </nav>
+
+    <main>
+        <section id="home" class="tab-content active">
+            <div class="hero">
+                <h2>Protecting Our Blue Planet</h2>
+                <p>Discover how coastal communities and marine ecosystems can build resilience against climate change.</p>
+                <button id="hero-btn" class="btn pulse">Explore Strategies</button>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stat-card" onmouseover="hoverStat(this)" onmouseout="unhoverStat(this)">
+                    <i class="fas fa-temperature-high"></i>
+                    <h3>1.1°C</h3>
+                    <p>Global temperature rise since pre-industrial times</p>
+                </div>
+                <div class="stat-card" onmouseover="hoverStat(this)" onmouseout="unhoverStat(this)">
+                    <i class="fas fa-water"></i>
+                    <h3>3.7mm/year</h3>
+                    <p>Current sea level rise rate</p>
+                </div>
+                <div class="stat-card" onmouseover="hoverStat(this)" onmouseout="unhoverStat(this)">
+                    <i class="fas fa-coral"></i>
+                    <h3>50%</h3>
+                    <p>Coral reefs lost in last 30 years</p>
+                </div>
+            </div>
+
+            <div class="intro-content">
+                <h2>Why Ocean Resilience Matters</h2>
+                <p>The ocean absorbs about 30% of carbon dioxide produced by humans and 90% of the excess heat from global warming. Building resilience in marine ecosystems is crucial for:</p>
+                <ul>
+                    <li>Protecting coastal communities from storms and flooding</li>
+                    <li>Maintaining biodiversity and fisheries</li>
+                    <li>Preserving carbon sequestration capacity</li>
+                    <li>Sustaining livelihoods for millions</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="strategies" class="tab-content">
+            <h2>Climate Resilience Strategies</h2>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-btn">🌊 Nature-Based Coastal Protection</button>
+                    <div class="accordion-content">
+                        <h3>Mangrove Restoration</h3>
+                        <p>Mangroves reduce wave energy by 66-99% and can grow vertically at rates matching sea level rise. Restoration projects in Indonesia have shown 70% survival rates with proper techniques.</p>
+                        
+                        <h3>Living Shorelines</h3>
+                        <p>Combining oyster reefs with salt marshes creates dynamic barriers that adapt to changing conditions. North Carolina's living shoreline projects reduced erosion by 76% compared to hardened structures.</p>
+                        
+                        <h3>Coral Reef Protection</h3>
+                        <p>Healthy reefs reduce 97% of wave energy. Assisted evolution techniques are helping corals withstand warmer temperatures. The Coral Restoration Foundation has outplanted over 220,000 corals in Florida.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn">🐟 Climate-Smart Fisheries</button>
+                    <div class="accordion-content">
+                        <h3>Dynamic Ocean Management</h3>
+                        <p>Using real-time data to adjust fishing boundaries as species migrate. In California, this approach reduced bycatch by 57% while maintaining catch rates.</p>
+                        
+                        <h3>Aquaculture Innovation</h3>
+                        <p>Integrated multi-trophic aquaculture (IMTA) combines species that clean the water (seaweed, shellfish) with finfish. This system increases yield by 20-30% while reducing environmental impact.</p>
+                        
+                        <h3>Protecting Nursery Habitats</h3>
+                        <p>Seagrass beds nurture 20% of the world's major fisheries. Restoration in Virginia's coastal bays created 9,000 acres of habitat, increasing scallop populations 300-fold.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn">🏙️ Resilient Coastal Communities</button>
+                    <div class="accordion-content">
+                        <h3>Floodable Architecture</h3>
+                        <p>Amphibious buildings in the Netherlands rise with floodwaters. The Buoyant Foundation Project in Louisiana elevated homes with minimal cost increase.</p>
+                        
+                        <h3>Managed Retreat</h3>
+                        <p>Relocating vulnerable infrastructure. Alaska's Newtok village moved 9 miles inland, becoming a model for climate migration.</p>
+                        
+                        <h3>Early Warning Systems</h3>
+                        <p>Pacific Island nations use traditional knowledge combined with satellite data to predict storms. Fiji's system provides 48-hour warnings to remote villages.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resources">
+                <h3>Additional Resources</h3>
+                <div class="resource-cards">
+                    <a href="https://www.un.org/en/climatechange/science/climate-issues/ocean" class="resource-card" target="_blank">
+                        <i class="fas fa-globe-europe"></i>
+                        <h4>UN Ocean & Climate</h4>
+                        <p>Global initiatives and policy frameworks</p>
+                    </a>
+                    <a href="https://oceanpanel.org/" class="resource-card" target="_blank">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Ocean Panel</h4>
+                        <p>Science-based solutions for ocean health</p>
+                    </a>
+                    <a href="https://www.nature.org/en-us/what-we-do/our-priorities/protect-water-and-land/land-and-water-stories/coastal-resilience/" class="resource-card" target="_blank">
+                        <i class="fas fa-hands-helping"></i>
+                        <h4>Nature Conservancy</h4>
+                        <p>Community-based adaptation projects</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="tab-content">
+            <h2>Success Stories</h2>
+            <div class="gallery-container">
+                <div class="gallery-slide active">
+                    <img src="https://images.unsplash.com/photo-1582139329536-e7284fece509?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Coral restoration">
+                    <div class="slide-caption">
+                        <h3>Coral Restoration in Florida Keys</h3>
+                        <p>Over 100,000 staghorn corals outplanted since 2007, with 85% survival rate. Restored reefs show 3x faster fish population recovery.</p>
+                    </div>
+                </div>
+                <div class="gallery-slide">
+                    <img src="https://images.unsplash.com/photo-1566737236500-c8ac43014a67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Mangrove planting">
+                    <div class="slide-caption">
+                        <h3>Mangrove Reforestation in Vietnam</h3>
+                        <p>12,000 hectares restored since 1994, reducing dike maintenance costs by $7.3 million annually while increasing shrimp yields by 20%.</p>
+                    </div>
+                </div>
+                <div class="gallery-slide">
+                    <img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1226&q=80" alt="Ocean research">
+                    <div class="slide-caption">
+                        <h3>Community Monitoring in Palau</h3>
+                        <p>Local fishers collect data that informed fishing limits, resulting in 50% larger fish sizes within protected areas after 3 years.</p>
+                    </div>
+                </div>
+                <button class="gallery-btn prev-btn">❮</button>
+                <button class="gallery-btn next-btn">❯</button>
+            </div>
+            <div class="gallery-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            
+            <div class="case-study-details">
+                <h3>How These Projects Built Resilience</h3>
+                <div class="case-study-tabs">
+                    <button class="case-tab-btn active" data-case="1">Florida Coral</button>
+                    <button class="case-tab-btn" data-case="2">Vietnam Mangroves</button>
+                    <button class="case-tab-btn" data-case="3">Palau Fisheries</button>
+                </div>
+                <div class="case-content active" data-case="1">
+                    <h4>Key Strategies:</h4>
+                    <ul>
+                        <li>Nursery-grown corals selected for heat tolerance</li>
+                        <li>Modular coral trees allow rapid scaling</li>
+                        <li>Community dive teams trained in restoration</li>
+                        <li>Hybrid reef designs combine artificial and natural structures</li>
+                    </ul>
+                    <a href="https://www.coralrestoration.org/" class="btn" target="_blank">Learn More</a>
+                </div>
+                <div class="case-content" data-case="2">
+                    <h4>Key Strategies:</h4>
+                    <ul>
+                        <li>Participatory mapping of optimal planting sites</li>
+                        <li>Eco-engineering to stabilize young plants</li>
+                        <li>Payment for ecosystem services program</li>
+                        <li>Combined with sustainable aquaculture</li>
+                    </ul>
+                    <a href="https://www.mangrovesforfuture.org/" class="btn" target="_blank">Learn More</a>
+                </div>
+                <div class="case-content" data-case="3">
+                    <h4>Key Strategies:</h4>
+                    <ul>
+                        <li>Traditional knowledge integrated with science</li>
+                        <li>Roving marine protected areas</li>
+                        <li>Community enforcement systems</li>
+                        <li>Ecotourism revenue sharing</li>
+                    </ul>
+                    <a href="https://www.picrc.org/" class="btn" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="tab-content">
+            <h2>Take Action for Ocean Resilience</h2>
+            <div class="action-options">
+                <div class="action-card">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Volunteer</h3>
+                    <p>Join beach cleanups, restoration projects, or citizen science programs</p>
+                    <button class="btn action-btn" data-action="volunteer">Find Opportunities</button>
+                </div>
+                <div class="action-card">
+                    <i class="fas fa-donate"></i>
+                    <h3>Donate</h3>
+                    <p>Support organizations working on ocean resilience solutions</p>
+                    <button class="btn action-btn" data-action="donate">See Trusted NGOs</button>
+                </div>
+                <div class="action-card">
+                    <i class="fas fa-microphone"></i>
+                    <h3>Advocate</h3>
+                    <p>Contact representatives about coastal protection policies</p>
+                    <button class="btn action-btn" data-action="advocate">Get Policy Toolkit</button>
+                </div>
+            </div>
+            
+            <form id="action-form" novalidate>
+                <h3>Stay Informed</h3>
+                <p>Join our network to receive action alerts and resilience resources</p>
+                
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    <span class="error-message" id="name-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <span class="error-message" id="email-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="interest">Primary Interest:</label>
+                    <select id="interest">
+                        <option value="restoration">Habitat Restoration</option>
+                        <option value="policy">Policy Advocacy</option>
+                        <option value="science">Citizen Science</option>
+                        <option value="education">Education</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="newsletter"> Send monthly resilience tips
+                    </label>
+                </div>
+                <button type="submit" class="btn">Join the Network</button>
+            </form>
+            
+            <div id="form-success" class="hidden">
+                <div class="success-message">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Thank you for joining the movement!</h3>
+                    <p>We've sent a confirmation email with resources to get started.</p>
+                    <div class="success-resources">
+                        <h4>Next Steps:</h4>
+                        <ul>
+                            <li><a href="#">Download our Coastal Resilience Guide</a></li>
+                            <li><a href="#">Find local organizations</a></li>
+                            <li><a href="#">Upcoming training webinars</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Resources</a>
+                <a href="#">Research</a>
+                <a href="#">Contact</a>
+            </div>
+            <p>© 2023 Ocean Resilience Network | Data from NOAA, UNEP, and IUCN</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
